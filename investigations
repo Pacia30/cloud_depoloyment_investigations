@@ -1,0 +1,15 @@
+Investigations 
+PING - used to establish connection between two hosts.
+  ping -o flag gives one packet
+  domains like google can be pinged
+  diy.com cannot be pinged as there might be a firewall or network configuration to block ping requests
+  it is possible to ping your own pc if you have the ip address and it can check your own internet connectivity
+  ping -f
+  use ping -n followed by a number to give more than one packet
+TRACEROUTE - used to find route to get connection between two hosts
+  traceroute -q?
+  traceroute -r?
+  various techniques can be used for high frequency trading such as - co location, shotest path networks, 10G ethernet ethernet interfaces
+  traceroutes to different locations can differ due to network
+  TTL (Time to Live) used to prevent packets from being fowarded forever when there is a routing loop. when IP packet is forwarded by router, ttl is decreased by one, when ttl is 0,
+IP packets will be discarded, this is 'time exceeded'
